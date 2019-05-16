@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <title>hirugarren aingeru</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto+Slab" rel="stylesheet">
+    <link rel="shortcut icon" href="fotos/logo_favicon_ha">
+</head>
+
+<body>
+   <div id="todo_contenido">
+    <!--<div id="caixa_xarxes_socials">
+        <a href="https://es-es.facebook.com/"><div id="facebook"></div>
+        </a>
+        <a href="https://www.instagram.com/?hl=es">
+            <div id="instagram"></div>
+        </a>
+    </div>-->
+    <h1 id="nombre">Mostra de treballs</h1>
+    <nav>
+            <a href="../index.html" class="paginas"><div>Inici</div></a>
+            <a href="curriculum.html" class="paginas"><div>Currículum</div></a>
+            <a href="mostra_de_feines.html" class="paginas"><div>Mostra de treballs</div></a>
+            <!--<a href="contacte.html" class="paginas"><div>Contacte</div></a>-->
+    </nav>
+     <div class="container-display">
+            <img class="mySlides" src="fotos/arma_final.jpeg" style="width:100%">
+            <img class="mySlides" src="fotos/casa.jpeg" style="width:100%">
+            <img class="mySlides" src="fotos/Malament_.png" style="width:100%">
+            <img class="mySlides" src="fotos/practica_peso.jpg" style="width:100%">
+            <img class="mySlides" src="fotos/mario_jhonny.gif" style="width:100%">
+            <img class="mySlides" src="fotos/pose_atletica_v2.png" style="width:100%">
+
+            <button class="boton-slider fletxaDreta-slider" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="boton-slider fletxaEsquerra-slider" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = x.length
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex - 1].style.display = "block";
+            }
+        </script>
+    </div>
+</body>
+<footer>
+    <p id="adrian">Adrian Usles · TLF: 605 895 441 · adrianusles3@gmail.com </p>
+</footer>
+</html>
