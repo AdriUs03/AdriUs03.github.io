@@ -36,34 +36,38 @@ header{
 #animaciones{
     display:flex:1;
     position: relative;
-    top:-150px;
+    top:60px;
     width: 100vw;
+    height: 400px;
     background-color: red;
+    background-image: url(../pages/videos/mario_jhonny.gif);
+    background-size:cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
 
 #fotos{
     display:flex:2;
     position: relative;
+    top: 60px;
     width: 100vw;
     height: 400px;
+    background-color: blue;
     background-image: url(../pages/fotos/ironman_super_calidad.jpg);
     background-size: cover;
-    background-position:top;
     background-repeat: no-repeat;
 }
-
 @media screen and (max-width: 711px){
   
     body{
     background-color:lightblue;
 } 
     #animaciones{
-    top:0px;
+    height: 250px;
 }
     
     #fotos{
-    background-size: contain;
-    background-position: top;
+    height: 250px;
 }
 }
 
@@ -75,4 +79,10 @@ header{
     body{
     background-color:brown;
 }
+    #animaciones{
+    height: 100px;
+}
+#fotos{
+    height: 100px;
+}    
 }
