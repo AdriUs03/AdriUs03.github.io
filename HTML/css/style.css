@@ -1,0 +1,78 @@
+*{
+  margin:0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+}
+
+body{
+    background-color:white;
+}
+
+#nombre{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    margin:10px;
+}
+
+header{
+    display: block;
+    position: absolute;
+    background-color:#262626;
+    width: 100vw;
+    height: 60px;
+    z-index: 100;
+}
+
+#enlaces{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+#animaciones{
+    display:flex:1;
+    position: relative;
+    top:-150px;
+    width: 100vw;
+    background-color: red;
+}
+
+#fotos{
+    display:flex:2;
+    position: relative;
+    width: 100vw;
+    height: 400px;
+    background-image: url(../pages/fotos/ironman_super_calidad.jpg);
+    background-size: cover;
+    background-position:top;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 711px){
+  
+    body{
+    background-color:lightblue;
+} 
+    #animaciones{
+    top:0px;
+}
+    
+    #fotos{
+    background-size: contain;
+    background-position: top;
+}
+}
+
+@media screen and (max-width: 320px){
+  
+ #nombre{
+    font-size: 20px;
+}
+    body{
+    background-color:brown;
+}
+}
