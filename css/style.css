@@ -7,6 +7,7 @@
 
 body{
     background-color:white;
+    overflow-x: hidden;
 }
 
 #nombre{
@@ -56,6 +57,46 @@ header{
     background-repeat: no-repeat;
 }
 
+footer{
+    display: block;
+    position:fixed;
+    background-color: #262626;
+    bottom: 0;
+    width: 100vw;
+    height: 100px;
+    z-index: 101;
+}
+
+#contenedor_footer{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;    
+}
+
+#foto_mia{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../pages/fotos/Adrian2.jpg);
+    background-size:cover;
+    background-position: bottom;
+    margin-top: 25px;
+    margin-left: 35vw;
+}
+
+#adrian{
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin-top: 40px;
+    color:white;
+}
+
+/*MEDIA QUERIES*/
+
 @media screen and (max-width: 1000px){
   
     body{
@@ -82,8 +123,10 @@ header{
     height: 250px;
     top: 60px;
 }
+    #foto_mia{
+    margin-left: 25vw;
 }
-
+}
 
 @media screen and (max-width: 711px){
   
@@ -97,6 +140,9 @@ header{
     #fotos{
     height: 250px;
     top: 60px;
+}
+    #foto_mia{
+    margin-left: 10vw;
 }
 }
 
@@ -115,4 +161,7 @@ header{
 #fotos{
     height: 100px;
 }    
+    #foto_mia{
+    margin-left: 0vw;
+}
 }
