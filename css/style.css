@@ -33,23 +33,21 @@ header{
     height: 100vh;
 }
 
-#animaciones{
-    display:flex:1;
+#video_intro{
+    display: flex:3;
     position: relative;
-    top:60px;
     width: 100vw;
-    height: 400px;
-    background-color: red;
-    background-image: url(../pages/videos/mario_jhonny.gif);
-    background-size:cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
+    background-color: aqua;
+    top:-250px;
 }
 
-#fotos{
+#animaciones{
+}
+
+#fotos{    
     display:flex:2;
     position: relative;
-    top: 60px;
+    top:-253px;
     width: 100vw;
     height: 400px;
     background-color: blue;
@@ -62,12 +60,26 @@ header{
     body{
     background-color:lightblue;
 } 
+    #video_intro{
+        display: none;
+    }
+    
     #animaciones{
+    display:flex:1;
+    position: relative;
+    top:60px;
+    width: 100vw;
     height: 250px;
+    background-color: red;
+    background-image: url(../pages/videos/mario_jhonny.gif);
+    background-size:cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
 }
     
     #fotos{
     height: 250px;
+    top: 60px;
 }
 }
 
@@ -79,6 +91,7 @@ header{
     body{
     background-color:brown;
 }
+    
     #animaciones{
     height: 100px;
 }
