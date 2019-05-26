@@ -27,28 +27,68 @@ header{
     z-index: 100;
 }
 
+#boton_animaciones{
+    display: block;
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    top: 250px;
+    left: 66vw;
+    background-color: #EE8C36;
+    color: white;
+    padding-top:20px;
+    padding-left: 10px;
+    font-size: 15px;
+    transition: all ease 0.5s;
+    z-index:2;
+}
+
+#boton_animaciones:hover{
+    background-color: black;
+}
+
+#boton_iluminacion{
+    display: block;
+    position: absolute;
+    width: 110px;
+    height: 40px;
+    top: 250px;
+    left: 66vw;
+    background-color: #EE8C36;
+    color: white;
+    padding-top:20px;
+    padding-left: 10px;
+    font-size: 15px;
+    transition: all ease 0.5s;
+    z-index:2;
+}
+
+#boton_iluminacion:hover{
+    background-color: black;
+}
+
 #enlaces{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    height: 100vh;
+    height: auto;
 }
 
 #video_intro{
     display: flex:3;
-    position: relative;
+    position: absolute;
     width: 100vw;
     background-color: aqua;
-    top:-250px;
+    top:-350px;
 }
 
 #animaciones{
 }
 
-#fotos{    
+#fotos_iluminacion{    
     display:flex:2;
     position: relative;
-    top:-253px;
+    top:510px;
     width: 100vw;
     height: 400px;
     background-color: blue;
@@ -64,7 +104,7 @@ footer{
     bottom: 0;
     width: 100vw;
     height: 100px;
-    z-index: 101;
+    z-index: 100;
 }
 
 #contenedor_footer{
@@ -112,7 +152,7 @@ footer{
     position: relative;
     top:60px;
     width: 100vw;
-    height: 250px;
+    height: 550px;
     background-color: red;
     background-image: url(../pages/videos/mario_jhonny.gif);
     background-size:cover;
@@ -120,8 +160,17 @@ footer{
     background-repeat: no-repeat;
 }
     
-    #fotos{
-    height: 250px;
+    #boton_animaciones{
+    top: 90px;
+}
+    
+    #boton_iluminacion{
+    top: 90px;
+}
+    
+    
+    #fotos_iluminacion{
+    height: 550px;
     top: 60px;
 }
     #foto_mia{
@@ -138,7 +187,7 @@ footer{
         display: none;
     }
     
-    #fotos{
+    #fotos_iluminacion{
     height: 250px;
     top: 60px;
 }
@@ -159,7 +208,28 @@ footer{
     #animaciones{
     height: 100px;
 }
-#fotos{
+    
+     #boton_animaciones{
+    top: 35px;
+    width: 65px;
+    height: 20px;
+    font-size: 9px;
+    padding-top:10px;
+    padding-left: 10px;
+    left: 26vw;     
+}
+    
+    #boton_iluminacion{
+    top: 35px;
+    width: 65px;
+    height: 20px;
+    font-size: 9px;
+    padding-top:10px;
+    padding-left: 10px;
+    left: 26vw;
+}
+    
+#fotos_iluminacion{
     height: 100px;
 }    
     #foto_mia{
