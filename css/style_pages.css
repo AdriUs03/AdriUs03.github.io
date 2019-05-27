@@ -27,6 +27,20 @@ header{
     z-index: 100;
 }
 
+.wrapper {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+}
+
+#caixa1{
+    display: block;
+    position:relative;
+    width: auto;
+    height: auto; 
+}
 
 footer{
     display: block;
