@@ -75,7 +75,7 @@ header{
 }
 
 #video_intro{
-    display: flex:3;
+    display: flex:1;
     position: relative;
     width: 100vw;
     background-color: aqua;
@@ -88,11 +88,29 @@ header{
     display:flex:2;
     position: relative;
     width: 100vw;
-    height: 400px;
+    height: 800px;
     background-color: blue;
     background-image: url(../pages/fotos/ironman_super_calidad.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#fotos_modelaje{    
+    display:flex:3;
+    position: relative;
+    width: 100vw;
+    height: 800px;
+    background-color: blue;
+    background-image: url(../pages/fotos/arma_final.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#vacio{
+    display: flex;
+    position: relative;
+    width: 100vw;
+    height: 100px;
 }
 
 footer{
@@ -171,6 +189,10 @@ footer{
     height: 550px;
     top: 60px;
 }
+    #fotos_modelaje{
+    height: 550px;
+    top: 60px;
+}
     #foto_mia{
     margin-left: 25vw;
 }
@@ -197,6 +219,8 @@ footer{
     top: 60px;
     background-position:right;
 }
+     #fotos_modelaje{
+}    
     #foto_mia{
     margin-left: 10vw;
 }
@@ -238,7 +262,10 @@ footer{
 #fotos_iluminacion{
     height: 100px;
     background-position:center;
-}    
+}  
+     #fotos_modelaje{
+         height: 100px;
+}        
     #foto_mia{
     margin-left: 0vw;
 }
