@@ -28,7 +28,7 @@ header{
 }
 
 .wrapper {
-    width: 70%;
+    width: 70vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,7 +97,7 @@ footer{
     background-color:lightyellow;
 } 
     .wrapper {
-    width: 100%;
+    width: 100vw;
 }
 
     #foto_mia{
