@@ -96,6 +96,9 @@ footer{
     body{
     background-color:lightyellow;
 } 
+    .wrapper {
+    width: 100%;
+}
 
     #foto_mia{
     margin-left: 25vw;
