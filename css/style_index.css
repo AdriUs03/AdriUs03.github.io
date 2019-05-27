@@ -76,10 +76,9 @@ header{
 
 #video_intro{
     display: flex:3;
-    position: absolute;
+    position: relative;
     width: 100vw;
     background-color: aqua;
-    top:-350px;
 }
 
 #animaciones{
@@ -88,7 +87,6 @@ header{
 #fotos_iluminacion{    
     display:flex:2;
     position: relative;
-    top:510px;
     width: 100vw;
     height: 400px;
     background-color: blue;
@@ -187,9 +185,17 @@ footer{
         display: none;
     }
     
+     #boton_animaciones{
+    top: 200px;
+}
+    
+    #boton_iluminacion{
+    top: 100px;
+}
+    
     #fotos_iluminacion{
-    height: 250px;
     top: 60px;
+    background-position:right;
 }
     #foto_mia{
     margin-left: 10vw;
@@ -231,6 +237,7 @@ footer{
     
 #fotos_iluminacion{
     height: 100px;
+    background-position:center;
 }    
     #foto_mia{
     margin-left: 0vw;
