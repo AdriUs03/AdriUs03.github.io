@@ -176,6 +176,7 @@ footer{
 #contenedor_footer{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     width: 100vw;
     height: 100vh;    
 }
@@ -190,7 +191,6 @@ footer{
     background-size:cover;
     background-position: bottom;
     margin-top: 25px;
-    margin-left: 35vw;
 }
 
 #adrian{
@@ -200,6 +200,27 @@ footer{
     margin-top: 40px;
     margin-left: 20px;
     color:white;
+}
+
+#boton_curriculum{
+    display: block;
+    position: relative;
+    width: 130px;
+    height: 40px;
+    top: 20px;
+    left: 30px;
+    background-color: #EE8C36;
+    color: white;
+    padding-top:20px;
+    padding-left: 25px;
+    font-size: 15px;
+    transition: all ease 0.5s;
+    z-index:100;
+}
+
+#boton_curriculum:hover{
+    background-color: black;
+    cursor: pointer;
 }
 
 /*MEDIA QUERIES*/
@@ -262,9 +283,6 @@ footer{
     height: 550px;
     top: 60px;
 }
-    #foto_mia{
-    margin-left: 25vw;
-}
 }
 
 @media screen and (max-width: 711px){
@@ -289,9 +307,6 @@ footer{
 }
      #fotos_modelaje{
 }    
-    #foto_mia{
-    margin-left: 10vw;
-}
 }
 
 @media screen and (max-width: 320px){
@@ -361,7 +376,4 @@ footer{
      #fotos_modelaje{
          height: 100px;
 }        
-    #foto_mia{
-    margin-left: 0vw;
-}
 }
