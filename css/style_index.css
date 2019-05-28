@@ -140,7 +140,7 @@ header{
     width: 100vw;
     height: 800px;
     background-color: blue;
-    background-image: url(../pages/fotos/ironman_super_calidad.jpg);
+    background-image: url(../pages/fotos/ironman_super_calidad_para_index.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -281,12 +281,11 @@ footer{
 }
     
     #boton_iluminacion{
-    top: 100px;
+    top: 200px;
 }
     
     #fotos_iluminacion{
     top: 60px;
-    background-position:right;
 }
      #fotos_modelaje{
 }    
