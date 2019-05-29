@@ -163,6 +163,15 @@ footer{
     .wrapper {
     width: 100vw;
 }
+#todo_contenido{
+    width:100vw;
+}
+    #caja_curriculum{
+    width: 90vw;
+}
+    #foto_curriculum{
+    left: 70vw;
+}
 }
 
 @media screen and (max-width: 711px){
@@ -171,11 +180,8 @@ footer{
     background-color:lightblue;
 } 
     #foto_curriculum{
-    display: flex;
-    position: absolute;
     width: 50px;
     height: 100px;
-    left: 50vw;
 }
 }
 
