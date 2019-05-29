@@ -10,6 +10,15 @@ body{
     overflow-x: hidden;
 }
 
+header{
+    display: block;
+    position: absolute;
+    background-color:#262626;
+    width: 100vw;
+    height: 60px;
+    z-index: 100;
+}
+
 #nombre{
     font-family: 'Permanent Marker', cursive;
     font-size: 28px;
@@ -33,15 +42,6 @@ body{
     text-align: center;
     color: black;
     margin:10px;
-}
-
-header{
-    display: block;
-    position: absolute;
-    background-color:#262626;
-    width: 100vw;
-    height: 60px;
-    z-index: 100;
 }
 
 .wrapper_animaciones{
