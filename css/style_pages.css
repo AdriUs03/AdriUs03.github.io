@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color:black;
+    background-color:rgb(238, 238, 238);
     overflow-x: hidden;
 }
 
@@ -16,6 +16,15 @@ body{
     text-align: center;
     color: white;
     margin:10px;
+}
+
+#vacio_arriba{
+    display: block;
+    position: relative;
+    background-color: red;
+    width: 100vw;
+    height: 60px;
+    top: 0px;
 }
 
 #nombre_seccion{
@@ -160,7 +169,7 @@ footer{
     body{
     background-color:lightyellow;
 } 
-    .wrapper {
+    .wrapper_animaciones {
     width: 100vw;
 }
 #todo_contenido{
