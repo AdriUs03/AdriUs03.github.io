@@ -19,6 +19,28 @@ header{
     z-index: 100;
 }
 
+#boton_inicio{
+    display: block;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    top: 7px;
+    left: 25vw;
+    background-color: #EE8C36;
+    color: white;
+    padding-top:15px;
+    padding-left: 25px;
+    font-size: 15px;
+    transition: all ease 0.5s;
+    z-index:100;
+}
+
+#boton_inicio:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
 #nombre{
     font-family: 'Permanent Marker', cursive;
     font-size: 28px;
@@ -169,6 +191,9 @@ footer{
     body{
     background-color:lightyellow;
 } 
+    #boton_inicio{
+    left: 15vw;
+}
     .wrapper_animaciones {
     width: 100vw;
 }
@@ -179,6 +204,9 @@ footer{
     body{
     background-color:lightblue;
 } 
+    #boton_inicio{
+    left: 10vw;
+}
     #foto_curriculum{
     width: 50px;
     height: 100px;
