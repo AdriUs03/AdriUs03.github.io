@@ -172,15 +172,6 @@ footer{
     .wrapper_animaciones {
     width: 100vw;
 }
-#todo_contenido{
-    width:100vw;
-}
-    #caja_curriculum{
-    width: 90vw;
-}
-    #foto_curriculum{
-    left: 70vw;
-}
 }
 
 @media screen and (max-width: 711px){
