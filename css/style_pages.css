@@ -17,6 +17,7 @@ header{
     width: 100vw;
     height: 60px;
     z-index: 100;
+    top:0px;
 }
 
 #contenedor_header{
