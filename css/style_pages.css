@@ -185,6 +185,42 @@ header{
     padding-top: 60px;
 }
 
+.container-display {
+    position: relative;
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+.boton-slider {
+    width: 30px;
+    height: 30px;
+    background-color: #EE8C36;
+    transition:all ease 0.5s;
+}
+
+.boton-slider:hover {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.fletxaDreta-slider {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    */
+}
+
+.fletxaEsquerra-slider {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+
 #todo_contenido_curriculum{
     display: block;
     position: relative;
