@@ -281,6 +281,12 @@ footer{
     .wrapper_animaciones {
     width: 100vw;
 }
+    
+    #todo_contenido{
+    width:100vw;
+}
+
+    
 }
 
 @media screen and (max-width: 711px){
