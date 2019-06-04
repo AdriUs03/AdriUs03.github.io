@@ -313,7 +313,13 @@ footer{
 #pesos_mobil{
     display: none;
 }
+#mario_web{
+  width: 100%; 
+}
 
+#mario_mobil{
+    display: none;
+}
 #buzon_web{
   width: 100%; 
 }
@@ -370,8 +376,16 @@ footer{
     #pesos_web{
         display: none;
 }
-
     #pesos_mobil{
+        display: block;
+        position: relative;
+        width: 100%;
+}
+    #mario_web{
+        display: none;
+}
+
+    #mario_mobil{
         display: block;
         position: relative;
         width: 100%;
