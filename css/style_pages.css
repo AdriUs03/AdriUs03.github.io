@@ -320,6 +320,13 @@ footer{
 #mario_mobil{
     display: none;
 }
+#wall-e_web{
+  width: 100%; 
+}
+
+#wall-e_mobil{
+    display: none;
+}
 #buzon_web{
   width: 100%; 
 }
@@ -386,6 +393,15 @@ footer{
 }
 
     #mario_mobil{
+        display: block;
+        position: relative;
+        width: 100%;
+}
+    #wall-e_web{
+        display: none;
+}
+
+    #wall-e_mobil{
         display: block;
         position: relative;
         width: 100%;
