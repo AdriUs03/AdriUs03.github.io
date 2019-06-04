@@ -334,6 +334,13 @@ footer{
 #squirrel_mobil{
     display: none;
 }
+#walking_web{
+  width: 100%; 
+}
+
+#walking_mobil{
+    display: none;
+}
 #buzon_web{
   width: 100%; 
 }
@@ -418,6 +425,15 @@ footer{
 }
 
     #squirrel_mobil{
+        display: block;
+        position: relative;
+        width: 100%;
+}
+    #walking_web{
+        display: none;
+}
+
+    #walking_mobil{
         display: block;
         position: relative;
         width: 100%;
