@@ -327,6 +327,13 @@ footer{
 #wall-e_mobil{
     display: none;
 }
+#squirrel_web{
+  width: 100%; 
+}
+
+#squirrel_mobil{
+    display: none;
+}
 #buzon_web{
   width: 100%; 
 }
@@ -402,6 +409,15 @@ footer{
 }
 
     #wall-e_mobil{
+        display: block;
+        position: relative;
+        width: 100%;
+}
+    #squirrel_web{
+        display: none;
+}
+
+    #squirrel_mobil{
         display: block;
         position: relative;
         width: 100%;
