@@ -341,6 +341,13 @@ footer{
 #walking_mobil{
     display: none;
 }
+#walk_swat_web{
+  width: 100%; 
+}
+
+#walk_swat_mobil{
+    display: none;
+}
 #buzon_web{
   width: 100%; 
 }
@@ -434,6 +441,15 @@ footer{
 }
 
     #walking_mobil{
+        display: block;
+        position: relative;
+        width: 100%;
+}
+    #walk_swat_web{
+        display: none;
+}
+
+    #walk_swat_mobil{
         display: block;
         position: relative;
         width: 100%;
