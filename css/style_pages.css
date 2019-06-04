@@ -306,6 +306,14 @@ footer{
 }
 
 /*videos para web*/
+#pesos_web{
+  width: 100%; 
+}
+
+#pesos_mobil{
+    display: none;
+}
+
 #buzon_web{
   width: 100%; 
 }
@@ -359,6 +367,15 @@ footer{
     padding-top: 60px;
 }
    /*videos para mobil*/
+    #pesos_web{
+        display: none;
+}
+
+    #pesos_mobil{
+        display: block;
+        position: relative;
+        width: 100%;
+}
     #buzon_web{
         display: none;
 }
