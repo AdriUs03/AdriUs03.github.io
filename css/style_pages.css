@@ -305,6 +305,25 @@ footer{
     cursor: pointer;
 }
 
+/*videos para web*/
+#buzon_web{
+  width: 100%; 
+}
+
+#buzon_mobil{
+    display: none;
+}
+
+#cubo_web{
+  width: 100%; 
+}
+
+#cubo_mobil{
+    display: none;
+}
+
+/*Final videos para web*/
+
 /*MEDIA QUERIES*/
 
 @media screen and (max-width: 1000px){
@@ -339,7 +358,27 @@ footer{
     padding: 0px;
     padding-top: 60px;
 }
+   /*videos para mobil*/
+    #buzon_web{
+        display: none;
+}
+
+    #buzon_mobil{
+        display: block;
+        position: relative;
+        width: 100%;
+}
+    #cubo_web{
+        display: none;
+}
+
+    #cubo_mobil{
+        display: block;
+        position: relative;
+        width: 100%;
+}
     
+   /*final videos para mobil*/
 }
 
 @media screen and (max-width: 895px){
