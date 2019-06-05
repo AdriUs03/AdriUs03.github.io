@@ -32,3 +32,9 @@ body{
     background-color: black;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1000px){
+    body{
+        background-image:url(../pages/fotos/portada_mobil.jpg);
+    }
+}
