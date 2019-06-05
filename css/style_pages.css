@@ -371,6 +371,14 @@ footer{
     display: none;
 }
 
+#eva_web{
+  width: 100%; 
+}
+
+#eva_mobil{
+    display: none;
+}
+
 /*Final videos para web*/
 
 /*MEDIA QUERIES*/
@@ -484,6 +492,16 @@ footer{
 }
 
     #cubo_mobil{
+        display: block;
+        position: relative;
+        width: 100%;
+}
+    
+    #eva_web{
+        display: none;
+}
+
+    #eva_mobil{
         display: block;
         position: relative;
         width: 100%;
