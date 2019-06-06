@@ -6,9 +6,9 @@
 }
 
 body{
-    background-image:url(../pages/fotos/portada.jpg);
+    background-image:url(../pages/fotos/portada1.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     overflow-x: hidden;
 }
 
@@ -51,6 +51,32 @@ h1{
     cursor: pointer;
 }
 
+
+
+@media screen and (max-width: 1320px){
+    body{
+        background-image:url(../pages/fotos/portada_2.jpg);
+    }
+    #presentacion{
+    left: 40vw;
+    width: 300px;
+    top:25vh;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+}
+
+@media screen and (max-width: 700px){
+    #presentacion{
+    left: 27vw;
+}
+    #boton_visitar_web{
+    left:15vw;
+    }
+}
+
 @media screen and (max-width: 1000px){
     body{
         background-image:url(../pages/fotos/portada_mobil_bien.jpg);
@@ -58,10 +84,72 @@ h1{
         background-position: top;
     }
     #presentacion{
-    left: 70vw;
-    font-size: 20px;
+    left: 40vw;
+    width: 300px;
+    top:25vh;
+    font-size: 24px;
     text-align: center;
     letter-spacing: 5px;
 }
 
+}
+
+@media screen and (max-width: 700px){
+    #presentacion{
+    left: 27vw;
+}
+    #boton_visitar_web{
+    left:15vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #presentacion{
+    left: 20vw;
+    width: 300px;
+    top:25vh;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 5px;
+    /*background-color:rgba(0,0,0,0.5);*/
+}
+    #boton_visitar_web{
+    left:15vw;
+    }
+}
+
+@media screen and (max-width: 460px){
+    body{
+        background-image: url(../pages/fotos/portada_4.jpg);
+    }
+    
+    #presentacion{
+    left: 5vw;
+    width: 300px;
+    top:20vh;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+    #boton_visitar_web{
+    left:15vw;
+    }
+}
+
+@media screen and (max-width: 320px){
+    body{
+        background-repeat: repeat;
+    }
+    
+    #presentacion{
+    left: 2vw;
+    width: 150px;
+    top:20vh;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+    #boton_visitar_web{
+    left:15vw;
+    }
 }
