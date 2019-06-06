@@ -371,6 +371,14 @@ footer{
     display: none;
 }
 
+#metralleta_web{
+  width: 100%; 
+}
+
+#metralleta_mobil{
+    display: none;
+}
+
 #eva_web{
   width: 100%; 
 }
@@ -498,6 +506,16 @@ footer{
 }
 
     #cubo_mobil{
+        display: block;
+        position: relative;
+        width: 100%;
+}
+    
+    #metralleta_web{
+        display: none;
+}
+
+    #metralleta_mobil{
         display: block;
         position: relative;
         width: 100%;
