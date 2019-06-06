@@ -383,6 +383,12 @@ footer{
 
 /*MEDIA QUERIES*/
 
+@media screen and (max-width: 1320px){
+    #vacio{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1000px){
   
     body{
