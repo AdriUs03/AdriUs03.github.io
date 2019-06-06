@@ -23,13 +23,11 @@
   cursor: pointer;
   position: absolute;
   top: 50%;
-  width: auto;
   padding: 16px;
   margin-top: -22px;
   color: white;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
-  user-select: none;
 }
 
 /* Position the "next button" to the right */
@@ -55,6 +53,8 @@
     </header>
     <div id="todo_contenido">
        <h1 id="nombre_seccion">MODELATGE</h1>
+        
+        <p>MODELATGE BÚSTIA</p>
         <video width="100%" autoplay loop id="buzon_web">
             <source src="../pages/videos/edit_para_pagina_web/buzon_pagina_web.mp4" type="video/mp4">
         </video>
@@ -62,23 +62,12 @@
             <source src="../pages/videos/edit_para_pagina_web/buzon_pagina_web_mobil.mp4" type="video/mp4">
         </video>
         
-        <p>Slideshow 1:</p>
 <div class="slideshow-container">
   <div class="mySlides1">
     <img src="imagenes_modelaje/buzon/buzon_imagen_1.png" style="width:100%">
   </div>
-
-  <div class="mySlides1">
-    <img src="imagenes_modelaje/arma/arma_imagen2.png" style="width:100%">
-  </div>
-
-  <div class="mySlides1">
-    <img src="imagenes_modelaje/arma/arma_imagen1.png" style="width:100%">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-</div>    
+</div>   
+        <p>MODELATGE GALLEDA</p>
         <video width="100%" autoplay loop id="cubo_web">
             <source src="../pages/videos/edit_para_pagina_web/cubo_con_nombre.mp4" type="video/mp4">
         </video>
@@ -86,7 +75,6 @@
             <source src="../pages/videos/edit_para_pagina_web/cubo_con_nombre_mobil.mp4" type="video/mp4">
         </video>
                 
-<p>GALLEDA</p>
 <div class="slideshow-container">
   <div class="mySlides2">
     <img src="imagenes_modelaje/cubo/cubo_imagen1.png" style="width:100%">
@@ -108,20 +96,88 @@
   <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
 </div>
         
+        <p>MODELATGE EVA</p>
         <video width="100%" autoplay loop id="eva_web">
             <source src="../pages/videos/edit_para_pagina_web/eva_con_nombre.mp4" type="video/mp4">
         </video>
         <video width="100%" autoplay loop id="eva_mobil">
             <source src="../pages/videos/edit_para_pagina_web/eva_con_nombre_mobil.mp4" type="video/mp4">
         </video>
+        
+<div class="slideshow-container">
+  <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen2.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen3.png" style="width:100%">
+  </div>
+
+     <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen4.png" style="width:100%">
+  </div>
+    
+     <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen5.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen6.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen7.png" style="width:100%">
+  </div>
+
+     <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen8.png" style="width:100%">
+  </div>
+    
+      <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen9.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen10.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen11.png" style="width:100%">
+  </div>
+
+     <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen12.png" style="width:100%">
+  </div>
+    
+     <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen13.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen14.png" style="width:100%">
+  </div>
+
+  <div class="mySlides3">
+    <img src="imagenes_modelaje/eva/eva_imagen15.png" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+</div>
+        
         <video controls controlsList="nodownload" width="100%">
             <source src="../pages/videos/-----" type="video/mp4">
         </video>
         <script>
-var slideIndex = [1,1];
-var slideId = ["mySlides1", "mySlides2"]
+var slideIndex = [1,1,1];
+var slideId = ["mySlides1", "mySlides2", "mySlides3"]
 showSlides(1, 0);
 showSlides(1, 1);
+showSlides(1, 2);
 
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
