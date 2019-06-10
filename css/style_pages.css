@@ -305,6 +305,14 @@ footer{
     cursor: pointer;
 }
 
+.slideshow-container_iluminacion{
+    display: block;
+}
+
+#imagenes_iluminacion_mobil{
+        display: none;
+    }
+
 /*videos para web*/
 #pesos_web{
   width: 100%; 
@@ -429,6 +437,17 @@ footer{
     padding: 0px;
     padding-top: 60px;
 }
+    .slideshow-container_iluminacion{
+    display: none;
+}
+    #imagenes_iluminacion_mobil{
+        display: block;
+    }
+    
+    #vacio_iluminacion{
+        display: block;
+    }
+    
    /*videos para mobil*/
     #pesos_web{
         display: none;
