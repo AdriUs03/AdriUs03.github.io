@@ -363,6 +363,15 @@ footer{
 #spider_mobil{
     display: none;
 }
+
+#link_web{
+  width: 100%; 
+}
+
+#link_mobil{
+    display: none;
+}
+
 #buzon_web{
   width: 100%; 
 }
@@ -511,6 +520,16 @@ footer{
         position: relative;
         width: 100%;
 }
+    #link_web{
+        display: none;
+}
+
+    #link_mobil{
+        display: block;
+        position: relative;
+        width: 100%;
+}
+    
     #buzon_web{
         display: none;
 }
