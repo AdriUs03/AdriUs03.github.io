@@ -372,6 +372,14 @@ footer{
     display: none;
 }
 
+#friends_for_ever_web{
+  width: 100%; 
+}
+
+#friends_for_ever_mobil{
+    display: none;
+}
+
 #buzon_web{
   width: 100%; 
 }
@@ -525,6 +533,16 @@ footer{
 }
 
     #link_mobil{
+        display: block;
+        position: relative;
+        width: 100%;
+}
+    
+    #friends_for_ever_web{
+        display: none;
+}
+
+    #friends_for_ever_mobil{
         display: block;
         position: relative;
         width: 100%;
